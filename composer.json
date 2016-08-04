@@ -1,0 +1,20 @@
+{
+    "name": "maras0830/laravel5-battlenet-api",
+    "description": "Laravel5 BattleNet Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maras Chen",
+            "email": "Maras0830@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Maras0830\\BattleNetApi\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~5.0@dev"
+    }
+}
