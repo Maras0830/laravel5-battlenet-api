@@ -16,7 +16,5 @@
         "psr-4": {
             "Maras0830\\BattleNetApi\\": "src"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
