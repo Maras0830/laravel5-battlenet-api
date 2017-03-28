@@ -8,13 +8,14 @@
             "email": "Maras0830@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Maras0830\\BattleNetApi\\": "src"
         }
     },
     "require": {
-        "guzzlehttp/guzzle": "6.2.*"
+        "guzzlehttp/guzzle": "~6.0"
     }
 }
