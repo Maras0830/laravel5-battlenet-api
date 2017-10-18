@@ -45,10 +45,8 @@ class Authentication extends Base
 
             $response = $client->request('POST', $token_url, ['form_params' => $parameters]);
 
-            $response = $response->getBody()->getContents();
-
-            $response = json_decode($response);
-
+            $response = json_decode($response->getBody()->getContents(), true);
+            
             if (isset($response['access_token']))
                 return $response['access_token'];
 
